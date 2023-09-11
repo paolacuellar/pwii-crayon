@@ -1,0 +1,40 @@
+body {
+  background: #282828;
+}
+
+.registrarse {
+  align-items: center;
+  height: 720px;
+  width: 550px;
+  font-family: Arial #381d20;
+  background: #ff848f;
+  padding: 40px 50px;
+}
+
+@media (max-width: 768px) {
+  .FotoUser {
+    display: none;
+  }
+  .Registro {
+    display: block;
+  }
+  .FormRegistro {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .registrarse {
+    height: 720px;
+    width: 100%;
+  }
+  .registrarse input {
+    width: 100%;
+  }
+}
+
+.Registro {
+  display: flex;
+}
+.FormRegistro {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
